@@ -4,6 +4,20 @@ Zero-dependency Python 3.11+ CLI for auditing MCP OAuth 2.1 configs, probing RFC
 
 Note: This project (`tamaraw01/mcp-oauth-guard`) is an independent MIT CLI and is not affiliated with `aretaslabtech/McpOauthGuard`.
 
+## Packaged Releases
+
+- Packaged ZIP release (`$0+` MIT): [Download mcp-oauth-guard on Gumroad](https://aditama1.gumroad.com/l/mcp-oauth-guard)
+- Guard modules, token stores & CI workflows: [MCP OAuth and Concurrency Guardrails Kit ($39 / $79 / $149)](https://aditama1.gumroad.com/l/mcp-oauth-guardrails-kit) (use code `OAUTH20` for 20% off Pro `$79` or Team `$149`)
+
+| Tier | Price | What Is Included |
+|---|---:|---|
+| **[mcp-oauth-guard](https://aditama1.gumroad.com/l/mcp-oauth-guard)** | **$0+** | This MIT CLI (`audit`, `probe`, `race`, `doctor`) as a packaged ZIP |
+| **[Starter](https://aditama1.gumroad.com/l/mcp-oauth-guardrails-kit)** | **$39** | Bundled CLI, Python + TypeScript SSRF / `redirect_uri` / Host-header guards, 5 client config templates, GitHub Actions + `pre-commit` recipes, `install.py` + `check.py` (37 files) |
+| **[Pro (Recommended)](https://aditama1.gumroad.com/l/mcp-oauth-guardrails-kit)** | **$79** | Everything in Starter + `fcntl`-locked CAS token stores, single-flight `401` refresh middleware, non-sticky RFC 9728 discovery cache, multiprocessing race tests (42 files, `$63.20` with `OAUTH20`) |
+| **[Team](https://aditama1.gumroad.com/l/mcp-oauth-guardrails-kit)** | **$149** | Everything in Pro + workspace-scoped credential isolation, Entra ID & Okta `clientId` templates without DCR, org CI matrix workflow, 5-seat commercial license (49 files, `$119.20` with `OAUTH20`) |
+
+Every paid tier has a 14-day refund policy.
+
 ## Quick Start
 
 ```bash
