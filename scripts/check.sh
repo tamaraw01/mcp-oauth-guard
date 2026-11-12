@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$ROOT_DIR"
+
+PYTHONPATH="$ROOT_DIR/src" python3 -m unittest discover -s tests -t . -q
+PYTHONPATH="$ROOT_DIR/src" python3 -m mcp_oauth_guard doctor --root "$ROOT_DIR" --format json
